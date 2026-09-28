@@ -3,19 +3,19 @@
 <table>
   <tr>
     <td width="150"><b>Nama</b></td>
-    <td>: Rasya Aditya Ramadani</td>
+    <td>Rasya Aditya Ramadani</td>
   </tr>
   <tr>
     <td><b>NIM</b></td>
-    <td>: 2509116082</td>
+    <td>2509116082</td>
   </tr>
   <tr>
     <td><b>Kelas</b></td>
-    <td>: C</td>
+    <td>C</td>
   </tr>
   <tr>
     <td><b>Mata Kuliah</b></td>
-    <td>: Pemrograman Berorientasi Objek</td>
+    <td>Pemrograman Berorientasi Objek</td>
   </tr>
 </table>
 
