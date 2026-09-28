@@ -256,7 +256,10 @@ Saat method tampilkanInfo() dipanggil dari objek subclass, program secara dinami
 
 <img width="694" height="380" alt="Cuplikan layar 2026-09-28 123324" src="https://github.com/user-attachments/assets/a84f24d8-ebc8-48be-b423-1381d366071e" />
 
+### <b>9.1 Penjelasan Looping</b>
+
 Pada method cekDesimal(), perulangan diterapkan menggunakan struktur while (!valid). Perulangan ini berjalan selama variabel valid bernilai false setiap putaran, program menampilkan pesan membaca input dari pengguna dengan scanner.nextLine(), lalu memeriksa apakah input tersebut memenuhi syarat. Apabila input belum benar, valid tetap false sehingga pengguna diminta memasukkan data kembali. Perulangan baru berhenti ketika valid berubah menjadi true yaitu saat input sudah sesuai dengan cara ini, program memastikan pengguna tidak dapat melanjutkan proses sebelum memberikan data yang benar
 
-Percabangan di method cekDesimal() memakai struktur if – else if – else buat meriksa nilai berat yang diinput. Kondisi pertama if (angka <= 0) bertugas memastikan berat harus lebih dari 0 kg dan kondisi kedua else if (angka > 1000) memastikan nilainya nggak melebihi batas maksimal 1000 kg. Kalau kedua syarat itu terpenuhi maka masuk ke blok else yang bakal mengubah nilai valid jadi true. Di samping itu ada blok try-catch yang berfungsi menangani NumberFormatException supaya bisa menampilkan pesan error pas pengguna menginput data selain angka.
+### <b>9.2 Penjelasan Condition</b>
 
+Percabangan di method cekDesimal() memakai struktur if – else if – else buat meriksa nilai berat yang diinput. Kondisi pertama if (angka <= 0) bertugas memastikan berat harus lebih dari 0 kg dan kondisi kedua else if (angka > 1000) memastikan nilainya nggak melebihi batas maksimal 1000 kg. Kalau kedua syarat itu terpenuhi maka masuk ke blok else yang bakal mengubah nilai valid jadi true. Di samping itu ada blok try-catch yang berfungsi menangani NumberFormatException supaya bisa menampilkan pesan error pas pengguna menginput data selain angka.
